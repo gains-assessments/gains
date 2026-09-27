@@ -125,6 +125,12 @@ body.notes-on .note{display:block}
 .offer ul{margin:0;padding-left:1.1em;color:var(--text);font-size:16px;display:grid;gap:6px}
 .offer .price{margin-top:auto;padding-top:14px;line-height:36px;border-top:1px solid var(--rule);font-size:15px;color:var(--gray-text)}
 .offer .price b{font-family:var(--serif);font-size:1.5rem;font-weight:500;color:var(--green);font-variant-numeric:tabular-nums}
+.sample-reports{margin-top:clamp(36px,5vw,56px);padding-top:28px;border-top:1px solid var(--rule);display:grid;gap:16px;max-width:78ch}
+.sample-reports h3{font-size:1.3rem}
+.sample-reports p{color:var(--gray-text);margin-top:6px}
+.sample-reports .btn{width:fit-content}
+.sample-reports details{margin-top:4px}
+.sample-reports .school-lists p{margin:0}
 
 /* use cases */
 .grades{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:clamp(24px,4vw,64px);align-items:start}
@@ -355,6 +361,22 @@ form .btn{grid-column:1/-1;justify-self:start}
         </ul>
         <p class="price"><a href="#contact" style="font-weight:650;color:var(--green);text-decoration-color:var(--leaf);text-decoration-thickness:2px;text-underline-offset:5px">Ask about the next webinar</a></p>
       </article>
+    </div>
+    <div class="sample-reports">
+      <div>
+        <h3>See a sample report</h3>
+        <p>A full report packet for a hypothetical high school, built from a retired ACT test in grade 11 — student score reports, item analyses, and school-level statistics for English, math, reading, and science, plus the underlying data export.</p>
+      </div>
+      <a class="btn btn-green" href="/reports/act-11th-sample/act-11th-sample-reports.zip" download>Download the sample packet (ZIP)</a>
+      <details>
+        <summary>See what's inside</summary>
+        <div class="school-lists">
+          <p><b>Student score reports</b><a href="/reports/act-11th-sample/student-score-english.pdf">English</a> · <a href="/reports/act-11th-sample/student-score-math.pdf">Math</a> · <a href="/reports/act-11th-sample/student-score-reading.pdf">Reading</a> · <a href="/reports/act-11th-sample/student-score-science.pdf">Science</a></p>
+          <p><b>Item analysis reports</b><a href="/reports/act-11th-sample/item-analysis-english.pdf">English</a> · <a href="/reports/act-11th-sample/item-analysis-math.pdf">Math</a> · <a href="/reports/act-11th-sample/item-analysis-reading.pdf">Reading</a> · <a href="/reports/act-11th-sample/item-analysis-science.pdf">Science</a></p>
+          <p><b>School statistics reports</b><a href="/reports/act-11th-sample/statistics-english.pdf">English</a> · <a href="/reports/act-11th-sample/statistics-math.pdf">Math</a> · <a href="/reports/act-11th-sample/statistics-reading.pdf">Reading</a> · <a href="/reports/act-11th-sample/statistics-science.pdf">Science</a></p>
+          <p><b>Also included</b><a href="/reports/act-11th-sample/student-analysis.pdf">Student analysis summary</a> · <a href="/reports/act-11th-sample/scale-score-roster.pdf">Scale score roster</a> · <a href="/reports/act-11th-sample/exported-data.xlsx">Raw data export (Excel)</a></p>
+        </div>
+      </details>
     </div>
   </div>
 </section>
