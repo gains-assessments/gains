@@ -2,4 +2,7 @@
 # so old links keep working instead of 404ing. Format:
 #   /old/path/   /new/path/   301
 
-gainseducationgroup.com										   https://gainsassessments.com
+https://gainseducationgroup.com/*      https://gainsassessments.com/:splat  301!
+https://www.gainseducationgroup.com/*  https://gainsassessments.com/:splat  301!
+http://gainseducationgroup.com/*       https://gainsassessments.com/:splat  301!
+http://www.gainseducationgroup.com/*   https://gainsassessments.com/:splat  301!
