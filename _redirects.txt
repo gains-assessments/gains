@@ -1,0 +1,5 @@
+# When a post's slug changes after it's already been shared elsewhere, add a 301 line here
+# so old links keep working instead of 404ing. Format:
+#   /old/path/   /new/path/   301
+
+gainseducationgroup.com										   https://gainsassessments.com
